@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(to bottom, #03411e, #1c5725);
+    top: 0;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0.5rem 1rem 0.5re;
+}
+.redesUbicacion {
+    margin: 1rem 7rem 0rem 3rem;
+}
+.logoPrincipal{
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem 5rem 0rem 0rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight: bold;
+    padding-right: 2rem;
+}

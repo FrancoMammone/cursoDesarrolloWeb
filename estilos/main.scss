@@ -1,0 +1,264 @@
+@import "../partials/variables";
+@import "../partials/header";
+@import "../partials/footer";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.linksComunes {
+    font-weight: bold;
+    color: black;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+    /*HEADER*/
+/*header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(to bottom, #03411e, #1c5725);
+    top: 0;
+}
+.redes{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0.5rem 1rem 0.5re;
+}
+.redesUbicacion {
+    margin: 1rem 7rem 0rem 3rem;
+}
+.logoPrincipal{
+    width: 5rem;
+    height: 5rem;
+    margin: 0rem 5rem 0rem 0rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight: bold;
+    padding-right: 2rem;
+}*/
+
+    /*FIN HEADER*/
+main{
+    margin-top: 7.86%;
+}
+
+    /*PRODUCTOS*/
+.ubicacionProductos{
+    margin-top: 7.86%;
+}
+.listaProductos{
+    display: flex;
+    flex-grow: wrap;
+    margin: 4rem 0rem 0rem 0rem;
+}
+.listaProductos ol{
+    margin-left: 2rem;
+}
+.productos{
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+.productos li img{
+    transition: all 0.5s ease-out ;
+    width: 8rem;
+    height: 8rem;
+}
+
+.imgProductos:hover{
+    transform: scale(1.5);
+}
+
+    /*FIN PRODUCTOS*/
+
+    /*NOSOTROS*/
+p u {
+    color: darkred;
+}
+h1 b i {
+    color: rgb(87, 13, 13);
+    font-size: 90%;
+}
+.posicionNosotos{
+    margin-top: 12%;
+}
+.parrafosComunes{
+    line-height: 1.5;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: left;
+    font-weight: 400%;
+    font-size: 110%;
+}
+.ubicacionContactanos{
+    margin: 3rem 5rem 2rem 8rem;
+}
+.btnContacto{
+    background-color: #1c5725;
+}
+.imgMapa{
+  width: $ancho/2;
+  height: $alto/2;
+}
+.posicionMapa{
+    margin-bottom: 4rem;
+}
+
+/*Prueba Grid Nosotros*/
+
+.gridNosotros{
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "articulo1 articulo2"
+        "section section" 
+        "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: articulo1;
+    margin: 4rem 2rem 4rem 6rem;
+}
+.item3{
+    grid-area: articulo2;
+    margin: 4rem 2rem 4rem;
+}
+.item4{
+    grid-area: section;
+}
+.item5{
+    grid-area: footer;
+}
+
+    /*FIN NOSOTROS*/
+
+    /*PATOLOGIAS*/
+.parrafosComunes--cbd{
+    @extend .parrafosComunes;
+    margin: 4rem 18rem;
+}
+
+    /*FIN PATOLOGIAS*/
+
+    /*ENVIOS*/
+ 
+
+    /*FIN ENVIOS*/
+
+    /*CONTACTOS*/
+.ubicacionPContactos{
+    margin: 4rem 0rem 4rem 0rem;
+}
+form{
+    height: auto;
+}
+fieldset {
+    color: rgb(4, 0, 255);
+}
+legend {
+    color: rgb(255, 0, 0);
+}
+div div label {
+    color: rgb(16, 16, 129);
+}
+.formulario{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 2rem 5rem 2rem 5rem;
+    width: 60rem;
+}
+
+.transformandoFormulario:focus {
+    transform: scale(1.1);
+}
+.btn-success {
+    color: #fff;
+    background-color: #1c5725;
+    border-color: #1c5725;
+}
+
+    /*FIN CONTACTOS*/
+
+    /*FOOTER*/
+
+    
+
+    /*FIN FOOTER*/
+
+
+.colors {
+    color: rgb(8, 151, 8);
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 768px) {
+    header>div{
+        height:10rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .logoUbicacion{
+        margin: 1rem 0rem 0rem 5rem;
+    }
+    .redes{
+        margin: 3rem 3rem 0rem 0rem ;
+    }
+    
+
+    header>div>p{
+        display: none;
+        }
+    header>nav{
+        display:none;
+        }
+}
+@media only screen and (max-width: 320px) {
+    header>div{
+        margin: 0;
+        width: 100%; 
+        height: 5rem;
+        }
+        .logoPrincipal{
+            height: 40%;
+            width: 30%;
+            margin: 2% 20% 0% 30%;
+        }
+        div h1 b i{
+            color: rgb(87, 13, 13);
+            font-size: 90%;
+        }
+    header>div>p{
+        display: none;
+        }
+    header>nav{
+        display:none;
+        }
+}
+
+/*Fin Media Queries*/
+
+.carousel-inner{
+    height: 600px;
+}
+
+   /*FIN CONTACTOS*/
+
+
+
+
+      

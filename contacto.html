@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-PuntoMed</title>
+    <meta name="description" content="Contactate con PuntoMed para resolver cualquier duda">
+    <meta name="keywords" content="PuntoMed, duda, contacto">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/main.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" alt="logo" class="logoPrincipal"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./quienesSomos.html">Quienes Somos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">Productos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./acercaDelCBD.html">Acerca Del CBD</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                              </li>
+                            </ul>
+                        </div>
+                         <div class="redesUbicacion">
+                          <a href="https://www.instagram.com/puntomedmdp/"target="black"><img src="./img/instagram.png" alt="instagram" class="redes"></a>
+                          <a href="https://www.facebook.com/carlos.reuteman.94"target="black"><img src="./img/facebook.png" alt="facebook" class="redes"></a>
+                        </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+    </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 ubicacionPContactos">
+          <h2><b>Contactanos</b></h2>
+          <p><i class="bi bi-telephone-fill"></i> Por dudas o consultas sobre tu compra podes comunicarte al +549 1166518617 Para consultas sobre productos +549 1161462672
+            <br><i class="bi bi-envelope-fill"></i> aceitescbdargentina@gmail.com</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <form action="" method="GET" class="formulario">
+              <Fieldset>
+                  <legend>Formulario de contacto</legend>
+                  <div>
+                      <div>
+                          <label for="NombreyApellido">Nombre y Apellido</label>
+                      </div>
+                      <input type="text" name="NombreyApellido" id="" class="transformandoFormulario">
+                  </div>
+                  <div>
+                      <div>
+                          <label for="Edad">Edad</label>
+                      </div>
+                      <input type="number" name="Edad" id="" class="transformandoFormulario">
+                  </div>
+                  <div>
+                      <div>
+                          <label for="Maildelusuario">Email</label>
+                      </div>
+                      <input type="email" name="Maildelusuario" id="" size="40" required class="transformandoFormulario">
+                  </div>
+                  <div>
+                      <div>
+                          <label for="Opciones">Sobre que es su consulta?</label>
+                      </div>
+                      <select name="Opciones" id="">
+                          <option value="Opciones" selected>Elija una opcion</option>
+                          <option value="Productos">Productos</option>
+                          <option value="CBD">Sobre CBD</option>
+                          <option value="Envios">Envios</option>
+                          <option value="Otro">Otro</option>
+                      </select>
+                  </div>
+                  <div>
+                      <div>
+                          <label for="acepta">Acepta recibir informacion sobre los productos</label>
+                      </div>
+                      <input type="checkbox" name="acepta" id="1">
+                  </div>
+                  <div>
+                      <div>
+                          <label for="Consulta">Deje su consulta</label>
+                      </div>
+                      <textarea name="Consulta" id="" cols="30" rows="10" placeholder="Su consulta no molesta"></textarea>
+                  </div>
+                  <div>
+                      <button type="button" class="btn btn-success">Enviar</button>
+                      <button type="button" class="btn btn-success">Limpiar</button>
+                  </div>
+                 </Fieldset>
+          </form>
+        </div>
+      </div>
+     </main>
+     <footer id="footer">
+        <div class="container">
+          <h1>PuntoMed</h1>
+          <p>Productos elaborados con materia prima cultivada de manera orgánica.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/carlos.reuteman.94" class="facebook"><i class="bi bi-facebook"></i></i></a>
+            <a href="https://www.instagram.com/puntomedmdp/" class="instagram"><i class="bi bi-instagram"></i></i></a>
+          </div>
+          <div class="copyright">
+            &copy; Copyright <strong><span>2020</span></strong>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
